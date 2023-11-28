@@ -6346,7 +6346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Timeout: 10
-  m_XROrigin: {fileID: 0}
+  m_XROrigin: {fileID: 447399452}
 --- !u!4 &1165754720
 Transform:
   m_ObjectHideFlags: 0
