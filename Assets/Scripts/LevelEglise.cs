@@ -13,6 +13,7 @@ public class LevelEglise : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadScene("Level03");
+        //_levelManager.LoadScene("Level03");
+        _levelManager.LoadScene("Level04"); //Seulement pour tester l'avancement
     }
 }
