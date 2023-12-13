@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelEglise : MonoBehaviour
+public class LevelCrypte : MonoBehaviour
 {
     private LevelManager _levelManager;
 
@@ -13,6 +13,6 @@ public class LevelEglise : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadScene("Level03");
+        _levelManager.LoadScene("Level04");
     }
 }
