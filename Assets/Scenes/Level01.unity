@@ -860,7 +860,11 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 939535470}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1359375955376506586, guid: d6ade90f396755c42b43f8006323ec2c,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214622566}
   m_SourcePrefab: {fileID: 100100000, guid: d6ade90f396755c42b43f8006323ec2c, type: 3}
 --- !u!1 &248706391
 GameObject:
@@ -2996,12 +3000,114 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1214622561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1359375955376506586, guid: d6ade90f396755c42b43f8006323ec2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 196728068}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1214622565 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1359375955376413434, guid: d6ade90f396755c42b43f8006323ec2c,
     type: 3}
   m_PrefabInstance: {fileID: 196728068}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1214622566
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214622561}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b4a0145e99c280949bba4beaa5905010, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.4
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 4
+  MaxDistance: 5
+  Pan2D: 0
+  rolloffMode: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1228816092
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5101,6 +5207,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -14.381226
       objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_text
+      value: "Sc\xE8ne par : Lavoie Wilem"
+      objectReference: {fileID: 0}
     - target: {fileID: 5328269988341579375, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
         type: 3}
       propertyPath: m_Pivot.x
@@ -5802,17 +5913,22 @@ PrefabInstance:
     - target: {fileID: 6934924586597901833, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_Color.b
-      value: 0.6517889
+      value: 0.6765519
       objectReference: {fileID: 0}
     - target: {fileID: 6934924586597901833, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_Color.g
-      value: 0.6517889
+      value: 0.6509804
       objectReference: {fileID: 0}
     - target: {fileID: 6934924586597901833, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_Color.r
-      value: 0.9150943
+      value: 0.9137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 6934924586597901833, guid: b9a64e71df05d9340a65bbc1678904dd,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6934924586597901833, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
@@ -5882,22 +5998,22 @@ PrefabInstance:
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.028306553
+      value: -0.5201309
       objectReference: {fileID: 0}
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.20760544
+      value: -0.018913107
       objectReference: {fileID: 0}
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.35436708
+      value: -0.41026643
       objectReference: {fileID: 0}
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.9113302
+      value: 0.7488576
       objectReference: {fileID: 0}
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
@@ -5912,7 +6028,7 @@ PrefabInstance:
     - target: {fileID: 7436290173715033163, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -165.107
+      value: 620.9
       objectReference: {fileID: 0}
     - target: {fileID: 7444638372974609211, guid: b9a64e71df05d9340a65bbc1678904dd,
         type: 3}
