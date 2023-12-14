@@ -8,8 +8,6 @@ public class UIMainMenu : MonoBehaviour
     [SerializeField] private Button newGame;
     [SerializeField] private Button quitGame;
 
-    [SerializeField] private GameController gameController;
-
     private LevelManager levelManager;
 
     void Start()

@@ -496,6 +496,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ui
       objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_text
+      value: "Sc\xE8ne par : Jason Drinkwater"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
+      objectReference: {fileID: 0}
     - target: {fileID: 5328269988341579375, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
         type: 3}
       propertyPath: m_Pivot.x
