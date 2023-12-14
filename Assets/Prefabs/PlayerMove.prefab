@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2243877827346215886}
+  - component: {fileID: 9080652649428943990}
+  - component: {fileID: 1833450337240280337}
   m_Layer: 0
   m_Name: PlayerMove
   m_TagString: Untagged
@@ -33,8 +35,44 @@ Transform:
   - {fileID: 1011758419770020578}
   - {fileID: 4697657284304299591}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9080652649428943990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49649352145160455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b41126e4c42f4148ac3e775bf118164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameController: {fileID: 11400000, guid: e54b5cf547c1d0a40bb9702a59acd3a4, type: 2}
+  timerText: {fileID: 0}
+  pointsText: {fileID: 0}
+--- !u!65 &1833450337240280337
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49649352145160455}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 0.98959464, z: 1}
+  m_Center: {x: 0, y: 1.4109746, z: 0}
 --- !u!1 &830385921030016907
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,12 +234,12 @@ MonoBehaviour:
       m_Name: Position
       m_Type: 0
       m_ExpectedControlType: Vector3
-      m_Id: 753c41ee-7156-4f7b-8555-00a37a408c11
+      m_Id: 21599de2-30fd-42ce-a40b-f89fbc3dac4a
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 52ade3db-9f72-4b95-b1cf-b6874a3ce84d
+        m_Id: 90876c42-a6a0-4e5c-a161-6aae17bfd6e2
         m_Path: <XRHMD>/centerEyePosition
         m_Interactions: 
         m_Processors: 
@@ -209,7 +247,7 @@ MonoBehaviour:
         m_Action: Position
         m_Flags: 0
       - m_Name: 
-        m_Id: 6c08c7f4-5498-47d3-94b1-1198a37217eb
+        m_Id: 8c66d9c8-eaa9-4dc5-8b70-9b97fbdef1a1
         m_Path: <HandheldARInputDevice>/devicePosition
         m_Interactions: 
         m_Processors: 
@@ -224,12 +262,12 @@ MonoBehaviour:
       m_Name: Rotation
       m_Type: 0
       m_ExpectedControlType: Quaternion
-      m_Id: 734c3168-afb2-4872-89ad-9f92b979f312
+      m_Id: 0bf263c4-71cd-493a-aa89-19faef0464ca
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 03f16fff-57f4-4b8b-9e2b-c17cc43ed9d1
+        m_Id: ec33a2a6-0553-43a1-92f9-e5aab4a2c12d
         m_Path: <XRHMD>/centerEyeRotation
         m_Interactions: 
         m_Processors: 
@@ -237,7 +275,7 @@ MonoBehaviour:
         m_Action: Rotation
         m_Flags: 0
       - m_Name: 
-        m_Id: 68237837-5347-44a9-9670-62a80a886cdd
+        m_Id: b47c1df0-f67d-4aa5-9fe7-dfb6f680e58f
         m_Path: <HandheldARInputDevice>/deviceRotation
         m_Interactions: 
         m_Processors: 
@@ -252,12 +290,12 @@ MonoBehaviour:
       m_Name: Tracking State
       m_Type: 0
       m_ExpectedControlType: Integer
-      m_Id: 5e4fa291-0175-4091-9cb5-7ef0851a5aee
+      m_Id: adb7dd97-3793-4f21-99e7-ab860d54d45f
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings:
       - m_Name: 
-        m_Id: 5e15f674-4ebf-4869-806a-d7d2bab4c818
+        m_Id: abfdf0ae-d09e-40bd-ad78-520861fce67f
         m_Path: <XRHMD>/trackingState
         m_Interactions: 
         m_Processors: 

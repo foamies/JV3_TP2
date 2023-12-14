@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class LevelManager : MonoBehaviour
 {
+    [SerializeField] private GameController gameController;
+
     [SerializeField] private GameObject _loaderCanvas;
     //[SerializeField] private Image _progressBar;
 
@@ -33,6 +35,7 @@ public class LevelManager : MonoBehaviour
     public void LoadNewGame()
     {
         LoadScene("Level01");
+        gameController.Initialize();
     }
 
     public void LoadMainMenu()
