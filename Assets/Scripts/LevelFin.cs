@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class LevelFin : MonoBehaviour
 {
-    private LevelManager _levelManager;
+    private LevelManager levelManager;
 
     private void Start()
     {
-        _levelManager = LevelManager.instance;
+        levelManager = LevelManager.instance;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        _levelManager.LoadScene("LastScene");
+        levelManager.LoadScene("LastScene");
     }
 }
