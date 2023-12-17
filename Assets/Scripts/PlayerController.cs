@@ -9,14 +9,14 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timerText;
     [SerializeField] private TextMeshProUGUI pointsText;
 
-    void Update()
+    private void Update()
     {
         gameController.UpdateTimer(Time.deltaTime);
         UpdateUITimer();
         UpdateUIPoints();
     }
 
-    void UpdateUITimer()
+    private void UpdateUITimer()
     {
         string minutes = Mathf.Floor(gameController.CurrentTime / 60).ToString("00");
         string seconds = Mathf.Floor(gameController.CurrentTime % 60).ToString("00");
@@ -24,10 +24,19 @@ public class PlayerController : MonoBehaviour
         timerText.text = $"{minutes}:{seconds}";
     }
 
-    void UpdateUIPoints()
+    private void UpdateUIPoints()
     {
         string points = (gameController.Points).ToString();
 
         pointsText.text = $"{points}";
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Interactible")
+        {
+            gameController.InspectObject();
+            Destroy(other.gameObject);
+        }
     }
 }
