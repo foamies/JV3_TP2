@@ -6,6 +6,7 @@ TagManager:
   tags:
   - joueur
   - Interactible
+  - Cube
   layers:
   - Default
   - TransparentFX
