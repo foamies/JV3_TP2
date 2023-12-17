@@ -931,8 +931,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.88611054, z: 1}
-  m_Center: {x: 0, y: 1.3547972, z: 0}
+  m_Size: {x: 0.6669923, y: 0.60301423, z: 0.68440735}
+  m_Center: {x: 0, y: 1.4963454, z: 0}
 --- !u!114 &3531977264498418265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -946,6 +946,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameController: {fileID: 11400000, guid: e54b5cf547c1d0a40bb9702a59acd3a4, type: 2}
+  levelManager: {fileID: 0}
   timerText: {fileID: 0}
   pointsText: {fileID: 0}
   keyYes: {fileID: 0}
