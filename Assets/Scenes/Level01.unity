@@ -4117,7 +4117,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: c849956747ed4694cb0020f821e185a3, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4329,7 +4329,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: b80c7b39b32feb44c81ea22368e43fde, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4373,7 +4373,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5405,7 +5405,17 @@ PrefabInstance:
     - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
         type: 3}
       propertyPath: m_text
-      value: "Sc\xE8ne par : Lavoie Wilem"
+      value: "Sc\xE8ne par : Wilem Lavoie"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1945516248624012825, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 5328269988341579375, guid: 2bcfb23e291c1fe48aeb46fec0ef6a09,
         type: 3}
