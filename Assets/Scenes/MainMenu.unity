@@ -1862,8 +1862,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jason Drinkwater, Maximilien Fontaine, \nWilem Lavoie, Nicholas Suprenant"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3500,8 +3501,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ombres Sacr\xE9es"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5676,8 +5678,9 @@ MonoBehaviour:
     r\xE9sous des \xE9nigmes captivantes et d\xE9couvre les secrets enfouis qui hantent
     le lieu sacr\xE9."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6966,8 +6969,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quitter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7875,8 +7879,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "D\xE9buter"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -9334,8 +9339,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Volume de la musique:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
