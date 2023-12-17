@@ -13,6 +13,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private TextMeshProUGUI keyYes;
     [SerializeField] private TextMeshProUGUI keyNo;
 
+    [SerializeField] private AudioSource audioPoints;
+
 
     private void Update()
     {
@@ -39,6 +41,7 @@ public class PlayerController : MonoBehaviour
     {
         string points = (gameController.Points).ToString();
 
+
         pointsText.text = $"{points}";
     }
 
@@ -61,11 +64,15 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Interactible"))
         {
             gameController.InspectObject();
+            audioPoints.Play();
+
             Destroy(other.gameObject);
         }
         else if (other.gameObject.CompareTag("Key"))
         {
             gameController.FindKey();
+            audioPoints.Play();
+
             Destroy(other.gameObject);
         }
     }

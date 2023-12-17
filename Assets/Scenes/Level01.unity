@@ -1145,6 +1145,11 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 72751919, guid: 858e79faf6de940498a11b25374053d0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -3051581101836131957, guid: fae75600e66893a41bc07b3794822d56,
+        type: 2}
     - target: {fileID: 1255053967005034563, guid: 858e79faf6de940498a11b25374053d0,
         type: 3}
       propertyPath: m_Name
@@ -3331,7 +3336,8 @@ AudioSource:
   m_GameObject: {fileID: 1214622561}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -3051581101836131957, guid: fae75600e66893a41bc07b3794822d56,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: b4a0145e99c280949bba4beaa5905010, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.4
@@ -4108,6 +4114,11 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 72751919, guid: 858e79faf6de940498a11b25374053d0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -3051581101836131957, guid: fae75600e66893a41bc07b3794822d56,
+        type: 2}
     - target: {fileID: 1255053967005034563, guid: 858e79faf6de940498a11b25374053d0,
         type: 3}
       propertyPath: m_Name
@@ -4269,13 +4280,13 @@ AudioSource:
   m_GameObject: {fileID: 1555697584}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: fae75600e66893a41bc07b3794822d56,
+  OutputAudioMixerGroup: {fileID: 3342772936462656236, guid: fae75600e66893a41bc07b3794822d56,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: c849956747ed4694cb0020f821e185a3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4481,13 +4492,13 @@ AudioSource:
   m_GameObject: {fileID: 1565406899}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: fae75600e66893a41bc07b3794822d56,
+  OutputAudioMixerGroup: {fileID: -3051581101836131957, guid: fae75600e66893a41bc07b3794822d56,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: b80c7b39b32feb44c81ea22368e43fde, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.2
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4773,6 +4784,11 @@ PrefabInstance:
       propertyPath: MaxDistance
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 72751919, guid: 858e79faf6de940498a11b25374053d0, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -3051581101836131957, guid: fae75600e66893a41bc07b3794822d56,
+        type: 2}
     - target: {fileID: 1255053967005034563, guid: 858e79faf6de940498a11b25374053d0,
         type: 3}
       propertyPath: m_Name

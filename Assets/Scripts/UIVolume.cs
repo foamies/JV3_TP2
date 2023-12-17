@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class UIVolume : MonoBehaviour
 {
-    public GameController gameController;
-    public Slider slider;
+    [SerializeField] private GameController gameController;
+    [SerializeField] private Slider slider;
+    [SerializeField] private AudioMixer audioMixer;
 
     void Start()
     {
@@ -18,6 +20,7 @@ public class UIVolume : MonoBehaviour
     void UpdateSliderValue(float value)
     {
         gameController.Volume = value;
-    }
 
+        audioMixer.SetFloat("MUSVolume", Mathf.Log10(gameController.Volume) * 20);
+    }
 }
