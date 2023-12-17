@@ -12,6 +12,8 @@ public class GameController : ScriptableObject
 
     [SerializeField] private float volume;
 
+    [SerializeField] private bool key;
+
     public float CurrentTime => currentTime;
     public int Points => points;
     public float Volume
@@ -19,11 +21,13 @@ public class GameController : ScriptableObject
         get { return volume; }
         set { volume = Mathf.Clamp01(value); }
     }
+    public bool Key => key;
 
     public void Initialize()
     {
         currentTime = startTime;
         points = 0;
+        key = false;
     }
 
     public void UpdateTimer(float deltaTime)
@@ -38,7 +42,12 @@ public class GameController : ScriptableObject
 
     public void InspectObject()
     {
-        points = points + 150;
-        Debug.Log("Objet inspecté! Points: " + points);
+        points = points + 250;
+    }
+
+    public void FindKey()
+    {
+        key = true;
+        points = points + 500;
     }
 }

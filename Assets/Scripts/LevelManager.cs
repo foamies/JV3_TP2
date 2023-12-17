@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -10,6 +11,8 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private GameController gameController;
 
     [SerializeField] private GameObject _loaderCanvas;
+
+    //[SerializeField] private AudioMixer audioMixer;
     //[SerializeField] private Image _progressBar;
 
     public static LevelManager instance;
@@ -25,6 +28,11 @@ public class LevelManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    private void Update()
+    {
+        //audioMixer.SetFloat("Master", gameController.Volume);
     }
 
     public void LoadScene(string SceneName)
