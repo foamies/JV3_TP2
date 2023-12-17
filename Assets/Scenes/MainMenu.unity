@@ -1862,8 +1862,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Jason Drinkwater, Maximilien Fontaine, \nWilem Lavoie, Nicholas Suprenant"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3500,8 +3501,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ombres Sacr\xE9es"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5672,12 +5674,13 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Plonge dans l'obscurit\xE9 envo\xFBtante d'un jeu o\xF9 tu incarnes un
     d\xE9tective explorant un cimeti\xE8re myst\xE9rieux. Collecte des indices cach\xE9s
-    dans l'ombre des tombes et de l'\xE9glise suspecte. Pr\xE9sume le cur\xE9 coupable,
-    r\xE9sous des \xE9nigmes captivantes et d\xE9couvre les secrets enfouis qui hantent
-    le lieu sacr\xE9."
+    dans l'ombre des tombes et de l'\xE9glise suspecte. Prouve la culpabilit\xE9
+    du cur\xE9, r\xE9sous des \xE9nigmes captivantes et d\xE9couvre les secrets enfouis
+    qui hantent le lieu sacr\xE9."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5701,8 +5704,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6728,7 +6731,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: af1fe53cc6a5d7644aa5a9045334c9e6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -6966,8 +6969,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Quitter
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -7875,8 +7879,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "D\xE9buter"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9d793a48826d9094b92ec358483f23cb, type: 2}
+  m_sharedMaterial: {fileID: -2001248774355403547, guid: 9d793a48826d9094b92ec358483f23cb,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -8071,8 +8076,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.8862745, g: 0.35686275, b: 0.078431375, a: 1}
+    m_PressedColor: {r: 0.13333334, g: 0.8862745, b: 0.02745098, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -9334,8 +9339,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Volume de la musique:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 978c160c5c16e8d4db7c234ff0772a8d, type: 2}
+  m_sharedMaterial: {fileID: 7583540653211406949, guid: 978c160c5c16e8d4db7c234ff0772a8d,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -11705,8 +11711,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.8867924, g: 0.35561165, b: 0.079476655, a: 1}
+    m_PressedColor: {r: 0.13228564, g: 0.8867924, b: 0.0292809, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
