@@ -5,7 +5,7 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "GameController", menuName = "ScriptableObjects/GameController", order = 1)]
 public class GameController : ScriptableObject
 {
-    [SerializeField] private float startTime = 120f;
+    [SerializeField] private float startTime = 300f;
     [SerializeField] private float currentTime;
 
     [SerializeField] private int points;

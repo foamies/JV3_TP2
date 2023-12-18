@@ -1221,10 +1221,10 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Position Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 760eb6f4-bc0a-456b-9837-7cb9ba4ee3fe
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -1233,10 +1233,10 @@ MonoBehaviour:
   m_RotationInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Rotation Input
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 54efa4be-9269-4fc1-973e-5219aae532d0
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
