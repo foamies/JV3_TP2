@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: GameController
   m_EditorClassIdentifier: 
   startTime: 180
-  currentTime: 0
+  currentTime: 2000
   points: 2750
   volume: 0.46708748
   key: 1
