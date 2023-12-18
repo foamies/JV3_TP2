@@ -2033,6 +2033,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 78978272}
     m_Modifications:
+    - target: {fileID: 5487506896155660725, guid: ffbae557e4ef8ad42ac5985991a85b22,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5549393789185519492, guid: ffbae557e4ef8ad42ac5985991a85b22,
         type: 3}
       propertyPath: m_RootOrder
@@ -6682,6 +6687,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: joueur
+      objectReference: {fileID: 0}
+    - target: {fileID: 4697657284304299593, guid: ee16612097eb1834ba604c7a9bdac7b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9080652649428943990, guid: ee16612097eb1834ba604c7a9bdac7b6,
         type: 3}

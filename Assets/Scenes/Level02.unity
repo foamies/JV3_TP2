@@ -566,6 +566,11 @@ PrefabInstance:
       propertyPath: levelManager
       value: 
       objectReference: {fileID: 355387434}
+    - target: {fileID: 4697657284304299593, guid: ee16612097eb1834ba604c7a9bdac7b6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9080652649428943990, guid: ee16612097eb1834ba604c7a9bdac7b6,
         type: 3}
       propertyPath: timerText
@@ -9870,7 +9875,7 @@ PrefabInstance:
     - target: {fileID: 2457273537968821494, guid: fbac80f280a03844bbdc56acff09ba24,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.9303
+      value: 0.944
       objectReference: {fileID: 0}
     - target: {fileID: 2457273537968821494, guid: fbac80f280a03844bbdc56acff09ba24,
         type: 3}
