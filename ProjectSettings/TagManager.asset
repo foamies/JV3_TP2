@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - joueur
+  - Interactible
+  - Cube
+  - Key
   layers:
   - Default
   - TransparentFX

@@ -5,27 +5,26 @@ using UnityEngine.UI;
 
 public class UIMainMenu : MonoBehaviour
 {
-    [SerializeField] Button _newGame;
-    [SerializeField] Button _quitGame;
+    [SerializeField] private Button newGame;
+    [SerializeField] private Button quitGame;
 
-    private LevelManager _levelManager;
+    private LevelManager levelManager;
 
-    // Start is called before the first frame update
     void Start()
     {
-        _levelManager = LevelManager.instance;
+        levelManager = LevelManager.instance;
 
-        _newGame.onClick.AddListener(StartNewGame);
-        _quitGame.onClick.AddListener(QuitGame);
+        newGame.onClick.AddListener(StartNewGame);
+        quitGame.onClick.AddListener(QuitGame);
     }
 
     private void StartNewGame()
     {
-        _levelManager.LoadNewGame();
+        levelManager.LoadNewGame();
     }
 
     private void QuitGame()
     {
-        _levelManager.QuitGame();
+        levelManager.QuitGame();
     }
 }

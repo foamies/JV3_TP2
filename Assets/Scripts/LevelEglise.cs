@@ -5,6 +5,7 @@ using UnityEngine;
 public class LevelEglise : MonoBehaviour
 {
     private LevelManager _levelManager;
+    [SerializeField] private GameController gameController;
 
     private void Start()
     {
@@ -13,7 +14,9 @@ public class LevelEglise : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //_levelManager.LoadScene("Level03");
-        _levelManager.LoadScene("Level04"); //Seulement pour tester l'avancement
+        if (gameController.Key == true)
+        {
+            _levelManager.LoadScene("Level03");
+        }
     }
 }
