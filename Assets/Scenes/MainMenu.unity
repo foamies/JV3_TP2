@@ -13639,12 +13639,12 @@ PrefabInstance:
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_PositionInput.m_Action.m_Id
-      value: eb96e026-bcf9-4cd3-8375-f8844d5f4402
+      value: 819c09dd-1ce5-4211-b9d9-4c603901660d
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_Id
-      value: 4ddadc88-3506-4aef-b074-2a7c5ee25417
+      value: 549fce0b-d8ae-47dc-b2b1-7be5e83659c7
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
@@ -13655,6 +13655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_Name
       value: Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
+        type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_Id
+      value: d70b7610-11f1-4b44-9cf7-18134e65c617
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
@@ -13679,22 +13684,22 @@ PrefabInstance:
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 61093abd-6536-4fc4-a114-6a9c2614682f
+      value: 2f8eb947-1814-4282-8a29-996b9e823c3b
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_PositionInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
-      value: 2c22dd01-f677-427c-b505-573aa66b423a
+      value: 6848b6d4-37f4-4be0-9b2f-dc8e8e8b6ea1
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 1fb55cf8-1c5a-476f-a184-c9bdee13acd8
+      value: 9c2e473b-ded5-4bae-a3bc-cf399cbc7e08
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Id
-      value: 3e72d9fd-d43b-4c0d-8137-7a6c6fd56a7f
+      value: d6da927b-d2b9-4511-8f29-0f0f9a350841
       objectReference: {fileID: 0}
     - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
         type: 3}
@@ -13735,6 +13740,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RotationInput.m_Action.m_SingletonActionBindings.Array.data[1].m_Action
       value: Rotation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963337635744311332, guid: e33f8ced5ffe3994eb0a7cc8f1bb4c2b,
+        type: 3}
+      propertyPath: m_TrackingStateInput.m_Action.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 7f431ea8-a71e-403d-8714-5828b60031ec
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
